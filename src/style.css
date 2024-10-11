@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  font-family: monospace;
+  color: #20c20e;
+  margin: 0;
+  padding: 0;
+}
+
+#title {
+  font-family: monospace;
+  text-align: center;
+}
+
+#game {
+  border: 1px solid #20c20e;
+  padding: 6px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#money {
+  font-size: 18px;
+  height: 80%;
+}
