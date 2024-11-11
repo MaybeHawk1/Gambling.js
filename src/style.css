@@ -1,12 +1,5 @@
-body {
-  background-color: black;
-  font-family: monospace;
-  color: #20c20e;
-  margin: 0;
-  padding: 0;
-}
-
-#title {
+#title,
+#under-title {
   font-family: monospace;
   text-align: center;
 }
@@ -22,4 +15,18 @@ body {
 #money {
   font-size: 18px;
   height: 80%;
+}
+
+#dice-button {
+  border: 1px solid #20c20e;
+  outline: none;
+  color: white;
+  font-family: monospace;
+  background-color: transparent;
+  height: 40px;
+  width: 128px;
+}
+
+.game-list {
+  list-style-type: square;
 }

@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  font-family: monospace;
+  color: #20c20e;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #20c20e;
+  font-family: monospace;
+}
+
+a:link {
+  color: #20c20e;
+  font-family: monospace;
+}
+
+a:active {
+  color: #20c20e;
+  font-family: monospace;
+}
+
+a:hover {
+  color: #20c20e;
+  font-family: monospace;
+  text-decoration: underline;
+}

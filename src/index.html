@@ -6,23 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Gambling.js</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./style/navbar.css"/>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/style/navbar.css"/>
+    <link rel="stylesheet" href="/style/default.css"/>
   </head>
 
   <body>
     <h1 id="title">Welcome to gambling.js</h1>
-    <nav class="navbar">
-      <ul class="nav-list">
-        <li class="nav-item" href="#home">[Home]</li>
-        <li class="nav-item" href="#dice">[Dice Roll]</li>
-      </ul>
-    </nav>
+    <h2 id="under-title"> We have alot of games <h2>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li class="nav-item" href="#home">[Home]</li>
+          <li class="nav-item"><a class="dice-ref" href="./games/dice-roll/dice-roll.html">[Dice roll]</a></li>
+        </ul>
+      </nav>
+      <!-- Choose game div
+      <div id="game">
+        <h1 style="text-align: center;">
+          Choose a game
+        </h1>
 
-    <div id="game">
-      
-    </div>
-
-    <script src="main.js"></script>
+        <ul>
+          <li class="game-list"><button id="dice-button">Dice Roll</button></li>
+        </ul>
+      </div>
+-->
+      <script type="module" src="js/main.js"></script>
   </body>
 </html>
