@@ -14,21 +14,28 @@
 
   <body>
     <h1 id="title">Dice roll</h1>
+    <h2 id="moneyH1">Money: 0</h1>
       <nav class="navbar">
         <ul class="nav-list">
-          <li class="nav-item" href="../index.html">[Home]</li>
+          <li class="nav-item"><a href="../../../index.html">[Home]</a></li>
           <li class="nav-item" href="#dice">[Dice Roll]</li>
+          <li class="nav-item"><a href="../../bank/bank.html">[Bank]</a></li>
         </ul>
       </nav>
 
       <div id="game">
         <div id="center-me-daddy">
           <div id="oh-shit">
-            <h1 id="dice-placeholder"> 0 </h1>
+            <div class="h1-place">
+              <h1 id="dice-placeholder"> 0 </h1>
+              <h1 id="didWin"></h1>
+            </div>
             <input id="userNumber" type="text" placeholder="Number">
+            <input id="betAmount" type="text" placeholder="Amount of bet">
             <button id="submit">Submit!</button>
           </div>
         </div>
       <div>
+  <script src="../../js/games/diceRoll.js" type="module"></script>
   </body>
 </html>
